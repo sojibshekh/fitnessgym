@@ -1,0 +1,66 @@
+@media (max-width: 576px) { 
+    .container{
+    width: 90%;
+}
+
+    .nav-links{
+        display: none;
+    }
+    .mobile-icon{
+        display: block;
+    }
+    .mainbanner{
+        flex-direction: column;
+    }
+    .banner-content h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .maima-shape{
+        font-size: 36px;
+        line-height: 36px;
+    }.banner-content{
+        width: 100%;
+        margin: auto;
+    }
+    .dual-btn{
+        display: flex;
+    }
+    .primary-btn{
+       padding: 16px 20px;
+       margin-right: 5px;
+    }
+.secendary-btn{
+    padding: 16px 20px;
+  
+}
+.box1{
+    width: 180px;
+    padding: 10px;
+    top: 40px;
+    left:120px;
+}
+.box2{
+    width: 180px;
+    padding: 10px;
+    bottom: 20px;
+   
+}
+
+.box2-circle i{
+    display: block;
+}
+
+.banner-img img{
+   
+    padding: 40px 0px;
+    width: 100%;
+   
+}
+
+}
+
+
+@media (min-width: 576px) { 
+ 
+}
