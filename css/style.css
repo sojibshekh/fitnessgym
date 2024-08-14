@@ -178,5 +178,46 @@ color: #fff;
   font-size: 20px;
   color: #fff;
   display: none;
- 
+}
+#habit{
+  background: #000000;
+}
+.text-center{
+  text-align: center;
+}
+.section-head{
+  padding-top: 50px;
+  max-width: 671px;
+  margin: 0 auto;
+}
+.section-title{
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.section-desc{
+  color: #FFFFFF80;
+  font-size: 14px;
+  font-weight: 400;
+}
+.habit-card{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+.habit-img{
+  border-radius: 100%;
+}
+.habit-title{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.habit-desc{
+  font-size: 14px;
+  color:#FFFFFF80 ;
 }

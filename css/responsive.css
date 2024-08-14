@@ -55,7 +55,12 @@
    
     padding: 40px 0px;
     width: 100%;
-   
+}
+.habit-card{
+    grid-template-columns: repeat(1,1fr);
+}
+.section-title{
+    font-size: 32px;
 }
 
 }
