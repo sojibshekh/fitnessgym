@@ -243,3 +243,37 @@ background: #000000;
 .run-btn{
   margin-top: 20px;
 }
+#team{
+  background: #000000;
+}
+.teams{
+  background: #FFFFFF1A;
+  padding: 20px;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.team-mamber{
+  position: relative;
+}
+.trainer-img{
+  width: 100%;
+  border-radius: 18px;
+ 
+}
+.trainer-details{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.trainer-name{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
+.trainer-des{
+  font-size: 14px;
+  color:#FFFFFF80 ;
+}
