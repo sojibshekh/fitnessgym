@@ -200,6 +200,7 @@ color: #fff;
   color: #FFFFFF80;
   font-size: 14px;
   font-weight: 400;
+  padding: 15px 0px;
 }
 .habit-card{
   padding: 30px;
@@ -224,6 +225,7 @@ color: #fff;
 
 #run{
 background: #000000;
+padding: 40px 0px;
 }
 .run-img{
  width: 100%;
@@ -239,12 +241,88 @@ background: #000000;
   background: #222222;
   padding: 30px;
   border-radius: 18px;
+
 }
 .run-btn{
   margin-top: 20px;
 }
+#bmi{
+ background-color:#222222 ;
+ padding: 40px 0px;
+}
+.bithead{
+  justify-content: space-between;
+  
+}
+.bmi-table{
+  width: 50%;
+}
+.bmt-title{
+  font-size: 28px;
+  font-weight: 900;
+  color:#FFFFFF;
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+.bmt-des{
+  font-size: 14px;
+  color: #FFFFFF80;
+  padding-bottom: 20px;
+}
+.table,td,th{
+  border: 1px solid #FFFFFF80;
+  border-collapse: collapse;
+  padding: 10px 20px;
+} 
+
+.table tr th{
+  color: #FFFFFF;
+}
+.table tr td{
+  color: #FFFFFF80;
+}
+.form-gour{
+  width: 100%;
+  display: flex;
+}
+.formin{
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: #FFFFFF1A;
+  border: none;
+}
+.form-gour>select>option{
+  background: #FFFFFF1A;
+  border: none;
+  color: FFFFFF80;
+}
+.form-gour>select>option:first-child{
+  background: #FFFFFF1A;
+  border: none;
+  color: FFFFFF80;
+}
+.formin::placeholder{
+  color: #FFFFFF80;
+  font-size: 16px;
+}
+.primary-btn2{
+  padding: 14px 60px;
+  background: #E6533C;
+  border-radius: 42px;
+  border: 1px solid #E6533C;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.primary-btn2:hover{
+  cursor: pointer;
+}
+
 #team{
   background: #000000;
+  padding: 50px 0px;
 }
 .teams{
   background: #FFFFFF1A;
@@ -258,8 +336,11 @@ background: #000000;
   position: relative;
 }
 .trainer-img{
-  width: 100%;
+ 
   border-radius: 18px;
+  object-fit:fill;
+ width: 100%;
+ height: 100%;
  
 }
 .trainer-details{
@@ -276,4 +357,40 @@ background: #000000;
 .trainer-des{
   font-size: 14px;
   color:#FFFFFF80 ;
+}
+#footer{
+  background: #1A1A1A;
+  padding: 30px 0px;
+}
+.foot-content{
+  justify-content: space-between;
+}
+.footlogo{
+  width: 30%;
+}
+.foot-title{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.footlinks{
+  list-style: none;
+}
+.footlink{
+ padding: 5px 0px;
+
+}
+.footlink a{
+  text-decoration: none;
+  color: #FFFFFF80;
+  font-size: 23px;
+  padding: 30px 0px;
+}
+.footcopy{
+  padding-top: 30px;
+}
+.footbar{
+ color: #FFFFFF1A;
+ height: 2px;
 }

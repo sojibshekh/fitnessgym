@@ -68,7 +68,20 @@
 .teams{
     grid-template-columns: repeat(1,1fr);
 }
+.foot-content{
+    flex-direction: column;
+}
+.footlogo{
+    width: 100%;
+}
+.bithead{
+    flex-direction: column;
+}
 
+.bmi-table{
+    width: 100%;
+    padding-bottom: 30px;
+}
 
 }
 
