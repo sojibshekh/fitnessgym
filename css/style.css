@@ -221,3 +221,25 @@ color: #fff;
   font-size: 14px;
   color:#FFFFFF80 ;
 }
+
+#run{
+background: #000000;
+}
+.run-img{
+ width: 100%;
+  border-radius: 18px;
+}
+.run-card{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ gap: 40px;
+ align-items: center;
+}
+.run-banner{
+  background: #222222;
+  padding: 30px;
+  border-radius: 18px;
+}
+.run-btn{
+  margin-top: 20px;
+}
