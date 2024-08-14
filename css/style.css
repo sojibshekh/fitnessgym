@@ -230,6 +230,8 @@ padding: 40px 0px;
 .run-img{
  width: 100%;
   border-radius: 18px;
+  object-fit: none;
+  object-position: 68% 30%;
 }
 .run-card{
  display: grid;
@@ -411,3 +413,4 @@ padding: 40px 0px;
  color: #FFFFFF1A;
  height: 2px;
 }
+
