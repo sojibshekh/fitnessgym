@@ -300,14 +300,13 @@ padding: 40px 0px;
   border: none;
   color: FFFFFF80;
 }
-.form-gour>select>option:first-child{
-  background: #FFFFFF1A;
-  border: none;
-  color: FFFFFF80;
-}
+
 .formin::placeholder{
   color: #FFFFFF80;
   font-size: 16px;
+}
+.selectbox{
+  color: #FFFFFF80;
 }
 .primary-btn2{
   padding: 14px 60px;
@@ -414,3 +413,5 @@ padding: 40px 0px;
  height: 2px;
 }
 
+
+  
