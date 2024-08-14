@@ -82,7 +82,12 @@
     width: 100%;
     padding-bottom: 30px;
 }
-
+.gym{
+    flex-direction: column-reverse;
+}
+.gymbox{
+    width: 100%;
+}
 }
 
 

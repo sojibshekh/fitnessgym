@@ -320,6 +320,23 @@ padding: 40px 0px;
   cursor: pointer;
 }
 
+#aboutgym{
+  background: #000;
+  padding: 30px 0px;
+}
+.gym{
+  align-items: center;
+  justify-content: space-between;
+}
+.gymbox{
+  width: 50%;
+  padding: 20px;
+}
+.gymimg{
+  width: 100%;
+  border-radius: 18px;
+}
+
 #team{
   background: #000000;
   padding: 50px 0px;
