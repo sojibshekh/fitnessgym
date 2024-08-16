@@ -51,11 +51,15 @@ body{
 .active{
   background-color:#E6533C ;
   border-radius: 40px;
+  
+}
+.active2{
+  font-weight: 600 !important;
 }
 .nav-link{
   text-decoration: none;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
 }
 .mobile-icon{
@@ -236,7 +240,7 @@ padding: 40px 0px;
 .run-card{
  display: grid;
  grid-template-columns: repeat(2,1fr);
- gap: 40px;
+ gap: 140px;
  align-items: center;
 }
 .run-banner{
@@ -247,6 +251,10 @@ padding: 40px 0px;
 }
 .run-btn{
   margin-top: 20px;
+}
+.bmihead{
+  background-color: #000;
+  padding-bottom: 30px;
 }
 #bmi{
  background-color:#222222 ;
